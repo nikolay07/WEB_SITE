@@ -1,3 +1,14 @@
-body {
-    font-family: 'Work Sans', sans-serif;
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1400px;
+    margin: auto;
+}
+
+.header {
+    width: 1140px;
+    height: 62px;
+    margin: auto;
 }
