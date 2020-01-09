@@ -1,0 +1,28 @@
+.horizontal {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*
+Flexbox: flex контейнер и flex элементы
+ HTML_CSS  Урок 10. Flexbox
+Начальный HTML код находится в редакторе ниже. HTML должен оставаться неизменным. 
+Для добавления стилей используйте styles.css
+
+Результат должен быть как на картинке картинке
+
+Задайте <div> с классом .horizontal высоту 50px и отцентрируйте элементы по вертикали. По горизонтали используйте значение space-around
+Задайте <div> с классом .vertical высоту 200px и разместите элементы в нем по вертикали в колонку. 
+Отцентрируйте элементы по горизонтали. По вертикали используйте значение space-around
+*/
