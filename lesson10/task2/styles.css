@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: yellow;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: green;
+    height: 40px;
+    display: flex;
+}
+
+.navigation {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation_item {
+    margin-right: 16px;
+}
+
+.footer_item {
+    margin: auto;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.dashboard {
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    width: 200px;
+    background-color: grey;
+}
+
+.news_li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.news_h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+Лейаут страницы с помощью Flexbox
+ 
+Результат должен быть как на картинке картинке
+
+Нормализируйте CSS и задайте элементам на странице box-sizing: border-box;
+Страница должна отображаться на весь экран
+Используйте семантические теги
+Высота хедера и футера должна быть по 40px. Цвет - yellow и green соответственно.
+<main> cтраницы должен занимать все свободное пространство между хедером и футером.
+Сайдбар (цвет grey, тег <aside>) должен занимать 200px по ширине, 
+а дашборд (цвет - pink, тег <section>) - всю оставшуюся ширину.
+В хедер добавьте горизонтальную навигацию и отцентрируйте элементы навигации по вертикали относительно хедера. 
+Добавьте отступы 16px между элементами навигации
+В дашборд (используйте тег <section>) цвета pink добавьте <h2> с текстом I can use Flexbox!!! 
+и разместите его по центру.
+В футер добавьте текст Footer и отцентрируйте его с помощью margin
+В сайдбар добавьте <h2> с текстом News и отцентрируйте его по горизонтали. Ниже добавьте список новостей с высотой линии 40px
+*/
