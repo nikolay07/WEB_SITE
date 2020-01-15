@@ -10,6 +10,9 @@ html {
 .page {
     width: 1400px;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
@@ -61,7 +64,7 @@ html {
     display: inline-block;
     width: 8px;
     height: 5px;
-    background-image: url(img/Arrow.png);
+    background-image: url(img/arrow.png);
     margin-left: 11px;
 }
 
@@ -92,4 +95,69 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: #2B292D;
+    opacity: 0.6;
+}
+
+.footer-navigation {
+    margin: 0 auto;
+    height: 338px;
+    width: 1140px;
+    padding-top: 44px;
+}
+
+.downloads {
+    margin-top: 25px;
+}
+
+.downloads__items {
+    margin-right: 10px;
+}
+
+.footer__line {
+    border-top: 1px solid #2B292D;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.footer-links {
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.terms {
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.terms__items {
+    text-decoration: none;
+    color: #2B292D;
+    opacity: 0.6;
+    margin-right: 22px;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.social-links__items {
+    margin-left: 20px;
 }
