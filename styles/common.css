@@ -13,4 +13,13 @@
     .action-button {
         width: 160px;
     }
+    .hide_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .hide_mobile {
+        display: none;
+    }
 }
