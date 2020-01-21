@@ -1,13 +1,10 @@
 .features {
-    display: none;
+    display: flex;
+    position: relative;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 399px) {
     .features {
-        display: flex;
-        position: relative;
-    }
-    .features-mobile {
         display: none;
     }
 }
