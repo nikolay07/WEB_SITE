@@ -1,6 +1,15 @@
 .features {
-    display: flex;
-    position: relative;
+    display: none;
+}
+
+@media screen and (min-width: 400px) {
+    .features {
+        display: flex;
+        position: relative;
+    }
+    .features-mobile {
+        display: none;
+    }
 }
 
 .features__content {
