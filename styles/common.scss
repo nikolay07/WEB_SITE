@@ -10,6 +10,9 @@
     @include for-large-up {
         width: 160px;
     }
+    &_secondary {
+        color: #fff;
+    }
 }
 
 .hide_desktop {
@@ -22,4 +25,11 @@
     @include for-large-down {
         display: none;
     }
+}
+
+.icon-arrow_right {
+    display: block;
+    background-image: url('/img/icon-arrow-right.png');
+    width: 7px;
+    height: 12px;
 }

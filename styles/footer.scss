@@ -8,14 +8,14 @@
         line-height: 26px;
         font-size: 18px;
         margin-top: 26px;
-        color: $main-color;
+        color: $color-dark;
         opacity: 0.6;
         @include for-large-up {
             display: block;
         }
     }
     &__line {
-        border-top: 1px solid $main-color;
+        border-top: 1px solid $color-dark;
         width: 100%;
         opacity: 0.1;
         margin: 0;
@@ -89,14 +89,14 @@ footer .logo {
         font-weight: bold;
         font-size: 22px;
         line-height: 28px;
-        color: $main-color;
+        color: $color-dark;
         margin: 0;
     }
     &__title {
         font-weight: bold;
         font-size: 22px;
         line-height: 28px;
-        color: $main-color;
+        color: $color-dark;
         margin: 0;
     }
     &__list {
@@ -133,7 +133,7 @@ footer .logo {
     }
     &__items {
         text-decoration: none;
-        color: $main-color;
+        color: $color-dark;
         opacity: 0.6;
         margin-right: 22px;
     }
