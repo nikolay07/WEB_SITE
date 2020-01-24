@@ -1218,9 +1218,11 @@
 .order {
   padding: 50px 15px;
   background-color: #F4F5F7;
+  visibility: hidden;
 }
 @media screen and (min-width: 400px) {
   .order {
+    visibility: visible;
     padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
