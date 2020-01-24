@@ -506,7 +506,7 @@
 }
 @media screen and (min-width: 400px) {
   .review {
-    margin-top: 44px;
+    margin-top: 42px;
     padding: 30px;
     padding-bottom: 28px;
   }
@@ -523,6 +523,12 @@
 .review__profile-photo {
   width: 40px;
   height: 40px;
+  margin-top: 2px;
+}
+@media screen and (min-width: 400px) {
+  .review__profile-photo {
+    margin-top: 0;
+  }
 }
 .review__profile-name {
   font-weight: 700;
