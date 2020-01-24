@@ -119,6 +119,9 @@
         width: 40px;
         height: 40px;
         margin-top: 2px;
+        @include for-large-up {
+            margin-top: 0;
+        }
     }
     &__profile-name {
         font-weight: 700;
