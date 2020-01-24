@@ -496,46 +496,46 @@
   }
 }
 
-.avatar {
+.review {
   padding: 30px 20px;
   background-color: #FFF;
 }
 @media screen and (min-width: 1400px) {
-  .avatar {
+  .review {
     margin-top: 44px;
     padding: 30px;
     padding-bottom: 28px;
   }
 }
-.avatar__text {
+.review__text {
   font-size: 20px;
   line-height: 28px;
   margin: 0;
 }
-.avatar__profile {
+.review__profile {
   display: flex;
   margin-top: 26px;
 }
-.avatar__profile-photo {
+.review__profile-photo {
   width: 40px;
   height: 40px;
   margin-top: 2px;
 }
-.avatar__profile-name {
+.review__profile-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   display: inline-block;
   margin-left: 11px;
 }
-.avatar__profile-position {
+.review__profile-position {
   font-size: 16px;
   line-height: 22px;
   color: #2b292d99;
   display: inline-block;
   margin-left: 11px;
 }
-.avatar__profile-info {
+.review__profile-info {
   display: flex;
   flex-direction: column;
 }
@@ -1177,7 +1177,7 @@
 
 .tip {
   padding: 40px 15px 0 15px;
-  border-bottom: 1 px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
 }
 .tip__subtitle {
   font-weight: 700;
