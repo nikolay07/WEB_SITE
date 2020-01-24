@@ -506,8 +506,9 @@
 }
 @media screen and (min-width: 400px) {
   .review {
-    margin-top: 43px;
+    margin-top: 44px;
     padding: 30px;
+    padding-top: 31px;
     padding-bottom: 28px;
   }
 }
