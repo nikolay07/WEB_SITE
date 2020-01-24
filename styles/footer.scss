@@ -24,11 +24,10 @@
             margin: 0;
         }
     }
-}
-
-footer .logo {
-    @include for-large-down {
-        display: none;
+    .logo {
+        @include for-large-down {
+            display: none;
+        }
     }
 }
 
@@ -180,6 +179,6 @@ footer .logo {
         font-size: 18px;
         line-height: 25px;
         text-align: center;
-        color: #2B292D99;
+        color: $text-color-light-grey;
     }
 }

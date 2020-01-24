@@ -1,6 +1,6 @@
 .action-button {
-    background-color: #3040C4;
-    color: #fff;
+    background-color: $color-blue-indigo;
+    color: $text-color-white;
     width: 100%;
     height: 48px;
     font-size: 18px;
@@ -10,8 +10,15 @@
     @include for-large-up {
         width: 160px;
     }
-    &_secondary {
-        color: #fff;
+    &__secondary {
+        color: $text-color-black;
+        background-color: $color-white;
+        width: 100%;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 2px;
+        border: none;
     }
 }
 

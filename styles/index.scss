@@ -2,15 +2,22 @@
 @import 'breakpoints.scss';
 @import 'common.scss';
 @import 'about.scss';
+@import 'audience.scss';
 @import 'customers.scss';
+@import 'communication.scss';
 @import 'features.scss';
+@import 'inbox.scss';
+@import 'feedback.scss';
 @import 'footer.scss';
 @import 'header.scss';
 @import 'headline.scss';
+@import 'hiring.scss';
 @import 'tips.scss';
 @import 'order.scss';
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {

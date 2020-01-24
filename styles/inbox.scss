@@ -1,0 +1,141 @@
+.inbox {
+    padding: 50px 15px 48px 15px;
+    background-color: $color-yellow-light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include for-large-up {
+        display: block;
+        padding: 0;
+        position: relative;
+        width: 1400px;
+        height: 790px;
+    }
+    &__picture {
+        max-width: 290px;
+        @include for-large-up {
+            position: absolute;
+            top: 142px;
+            left: 193px;
+            max-width: 425px;
+            height: 510px;
+        }
+    }
+    &__picture-text {
+        display: none;
+        @include for-large-up {
+            position: absolute;
+            bottom: 101px;
+            left: 264px;
+            display: block;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: $text-color-light-grey;
+            margin-top: 15px;
+        }
+    }
+    &__image {
+        @include for-large-up {
+            display: block;
+        }
+    }
+    &__content {
+        border-bottom: 4px solid $color-blue;
+        @include for-large-up {
+            display: block;
+            position: absolute;
+            right: 99px;
+            bottom: 116px;
+            width: 519px;
+            margin-left: auto;
+        }
+    }
+    &__subtitle {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: 32px;
+        color: $text-color-orange;
+        @include for-large-up {
+            margin: 0;
+            margin-left: 28px;
+            margin-right: 25px;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 34px;
+        }
+    }
+    &__title {
+        margin: 0;
+        margin-top: 17px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        @include for-large-up {
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+            margin-top: 24px;
+            margin-left: 26px;
+            margin-right: 25px;
+        }
+    }
+    &__description {
+        margin: 0;
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 34px;
+        @include for-large-up {
+            margin-top: 30px;
+            margin-left: 28px;
+            margin-right: 25px;
+            font-size: 24px;
+            line-height: 34px;
+            color: $text-color-dark;
+        }
+    }
+}
+
+.avatar {
+    padding: 30px 20px;
+    background-color: $color-white;
+    @include for-large-up {
+        margin-top: 44px;
+        padding: 30px;
+        padding-bottom: 28px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0;
+    }
+    &__profile {
+        display: flex;
+        margin-top: 26px;
+    }
+    &__profile-photo {
+        width: 40px;
+        height: 40px;
+        margin-top: 2px;
+    }
+    &__profile-name {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        display: inline-block;
+        margin-left: 11px;
+    }
+    &__profile-position {
+        font-size: 16px;
+        line-height: 22px;
+        color: $text-color-light-grey;
+        display: inline-block;
+        margin-left: 11px;
+    }
+    &__profile-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
