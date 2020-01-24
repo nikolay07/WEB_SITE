@@ -24,18 +24,20 @@
         text-align: center;
     }
     &__title {
-        display: block;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 40px;
         text-align: center;
-        margin-top: 17px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 40px;
         letter-spacing: -0.375143px;
+        margin-top: 17px;
         @include for-large-up {
             line-height: 56px;
             font-size: 56x;
             letter-spacing: -0.5px;
             margin-top: 24px;
+        }
+        @include for-large-down {
+            font-size: 40px;
         }
     }
     &__description {
